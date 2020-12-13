@@ -1,11 +1,9 @@
-import useWebAnimations from "@wellyshen/use-web-animations";
-
 const Header = () => {
   return (
     // Logo and Menu
     <header id="header">
       <div className="wrapper">
-        <a href="#">
+        <a href="#bootcamp">
           <h2>Bootcamp 2020</h2>
         </a>
 
@@ -19,19 +17,19 @@ const Header = () => {
 
         <ul className="menu-left">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
 
         <ul className="menu-right">
           <li className="menu-cta">
-            <a href="">Get Started</a>
+            <a href="#getstarted">Get Started</a>
           </li>
         </ul>
       </div>
