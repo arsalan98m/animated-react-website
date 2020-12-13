@@ -1,12 +1,11 @@
 import image from "../images/image3.svg";
-import useWebAnimations, { pulse } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 
 const Section1 = () => {
   const { ref } = useWebAnimations({
     keyframes: [
       { transform: "translateX(0px)" },
       { transform: "translateX(100px)" },
-      ,
     ],
     timing: {
       duration: 4000, // Run for 1000ms
@@ -24,7 +23,7 @@ const Section1 = () => {
             stunning visualizations, and data adaptors for cloud/business
             applications as well as big data sources.
           </p>
-          <a href="#" className="cta">
+          <a href="#readmore" className="cta">
             Learn More
           </a>
         </div>

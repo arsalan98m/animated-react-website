@@ -1,4 +1,4 @@
-import useWebAnimations, { pulse } from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 
 import me from "../images/me.svg";
 const Intro = () => {
@@ -6,7 +6,6 @@ const Intro = () => {
     keyframes: [
       { transform: "translateY(0px)" },
       { transform: "translateY(100px)" },
-      ,
     ],
     timing: {
       duration: 4000, // Run for 1000ms
@@ -32,6 +31,7 @@ const Intro = () => {
             href="https://panacloud.github.io/bootcamp-2020/"
             className="intro-cta"
             target="_blank"
+            rel="noreferrer"
           >
             Join Free Bootcamp
           </a>
